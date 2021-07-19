@@ -8,7 +8,7 @@ const User = () => {
   return (
     isAuthenticated && (
       <div>
-        <Card style={{ width: "18rem" }}>
+        <Card style={{ width: "24rem" }}>
           <Card.Img variant="top" src={user.picture} alt={user.name} />
           <Card.Body>
             <Card.Title>{user.name}</Card.Title>

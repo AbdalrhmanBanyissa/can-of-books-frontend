@@ -16,7 +16,7 @@ class App extends React.Component {
   render() {
     const { isAuthenticated } = this.props.auth0;
     return(
-      <>
+      <div>
         <Router>
           <>
             <Header />
@@ -31,7 +31,7 @@ class App extends React.Component {
             <Footer />
           </>
         </Router>
-      </>
+      </div>
     );
   }
 }
