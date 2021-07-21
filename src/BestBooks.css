@@ -1,3 +1,11 @@
 .jumbotron{
   margin-bottom: 0;
 }
+
+.carousel-indicators>li {
+  background-color: rgb(64 22 22)!important;
+}
+
+.carousel-control-prev span,.carousel-control-next span{
+  background-color: rgb(64 22 22)!important;
+}
