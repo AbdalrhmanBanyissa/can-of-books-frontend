@@ -10,7 +10,7 @@ class MyFavoriteBooks extends React.Component {
     const { books,onChangeName,onChangeDescription,onChangeUrl,onAddNewBook } = this.props;
     return (
       <Jumbotron>
-        <h1 style={{color:"#fff"}}>My Favorite Books</h1>
+        <h1 style={{color:"rgb(64 22 22)"}}>My Favorite Books</h1>
         <div style={{position:"relative",left:"25%"}}>
         <forom>
           <input onChange={onChangeName} type="text" placeholder="Book name" />
